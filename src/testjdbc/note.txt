@@ -1,0 +1,14 @@
+1.向数据表中插入一条Student记录
+1）.新建一个方法：void addStudent（Student student）把参数Student对象插入到数据库中
+addStudent(Student student){
+}
+
+//1.准备一条sql语句
+String sql = "insert into student values(4,'123','asd','wh','537')";
+2).新建一个Student，
+int flowID;
+int type;
+String idCard;
+String studentName;
+String location;
+int grade;
